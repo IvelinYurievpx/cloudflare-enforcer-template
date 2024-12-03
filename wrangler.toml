@@ -1,8 +1,0 @@
-name = "cloudflare-enforcer-template"
-main = "src/index.ts"
-compatibility_date = "2023-11-21"
-tsconfig = "tsconfig.json"
-
-kv_namespaces = [
-    { binding = "PXKV", id = "<PXKV_ID>" }
-]

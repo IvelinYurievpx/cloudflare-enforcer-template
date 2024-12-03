@@ -1,0 +1,12 @@
+{
+  "name": "cloudflare-enforcer-template",
+  "main": "src/index.ts",
+  "compatibility_date": "2023-11-21",
+  "tsconfig": "./tsconfig.json",
+  "build": "npm run build",
+  "kv_namespaces": [
+    {
+      "binding": "PXKV"
+    }
+  ]
+}
